@@ -1,0 +1,114 @@
+.bg-image-1 {
+  background-image: url(img/laguna.jpg);
+
+}
+
+.bg-image-2 {
+  background-image: url(img/Mossi-3-1.jpg);
+
+}
+
+.bg-image-3 {
+  background-image: url(img/323289207_913082583026233_4779125714751707435_n.jpg);
+
+}
+
+.carousel-caption {
+
+  font-weight: bolder;
+
+}
+
+.card>img:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.iletisim-form{
+  background-color: #c0c0c0;
+  
+}
+
+#contact-form .form-control{
+
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+.carousel-image {
+
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+
+
+
+
+.hizmet-card>a:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+
+a {
+  color: #000;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#mainNavigation a {
+  font-family: 'Cabin', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)
+}
+
+
+
+
+a.dropdown-item:hover {
+  color: #03727d !important
+}
+
+#nav-item a {
+  color: #dfdfdf;
+}
+
+#nav-item a:hover {
+  color: #fff
+}
+
+#nav-item {
+  min-width: 12vw;
+}
+
+#mainNavigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 123;
+  padding-bottom: 120px;
+
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+}
+
+#navbarNavDropdown.collapsing #navbar-nav,
+#navbarNavDropdown.show #navbar-nav {
+  background: #999999;
+  padding: 12px;
+}
